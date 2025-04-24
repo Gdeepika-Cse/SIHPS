@@ -52,33 +52,10 @@ Connects with Indian Railways’ existing digital ecosystem.
 
 # Proposed Solution / Architecture Diagram
 
-     +----------------------+
-             |  Indian Railways DB  |
-             +----------+-----------+
-                        |
-                        v
-            +--------------------------+
-            | Backend Server (APIs)    |
-            | - Facility Data          |
-            | - Layout Updates         |
-            | - User Navigation Logs   |
-            +------------+-------------+
-                         |
-    +--------------------+---------------------+
-    |                                          |
-    v                                          v
-+-----------+                          +---------------+
-| Mobile App|                          | Digital Kiosks|
-| (Android/iOS)                        | (Touchscreen) |
-| - Real-time Maps                     | - Station Info|
-| - Voice Navigation                   | - Route Guide |
-+-----------+                          +---------------+
-         |
-         v
-+------------------+
-| Visually Impaired|
-| Interface (Voice)|
-+------------------+
+![Screenshot 2025-04-24 200808](https://github.com/user-attachments/assets/eed8f657-2576-46ff-b1a0-a2cb3b1e7d72)
+            
+    
+
 
 # Use Cases
 # New Passenger Navigation:
